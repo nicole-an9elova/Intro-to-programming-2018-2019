@@ -1,6 +1,7 @@
 ﻿// SEA CHESS
 #include <iostream>
 using namespace std;
+
 bool areThereAnyFreePositions(char board[][10], int N) {
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
