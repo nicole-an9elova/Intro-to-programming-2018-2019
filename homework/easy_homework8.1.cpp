@@ -2,8 +2,6 @@
 #include <iostream>
 #include <cstdlib>
 
-const int MAX_SIZE = 100;
-
 void cleanUpMatrix(int** matrix, size_t N) {
 	for (size_t i = 0; i < N; i++) {
 		delete[] matrix[i];
